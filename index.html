@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1><i>EazyLab: Pixel Art Maker</i></h1>
+    </header><tr>
+        
+        <h2>Choose Grid Size</h2>
+        <form id="sizePicker">
+            <p>
+                Grid Height:
+                <input type="number" id="inputHeight" name="height" min="1"  placeholder="Enter digit">
+                Grid Width:
+                <input type="number" id="inputWidth" name="width" min="1"  placeholder="Enter digit">
+            </p>
+            <input type="submit">
+        </form>
+        
+        <h2>Pick A Color</h2>
+        <input type="color" id="colorPicker">
+
+        <h2>Design Canvas</h2>
+        <table id="pixel_canvas"></table>
+        <br>
+        <em>&copy;AlcWithGoogle2018</em>
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="designs.js"></script>
+</html>
